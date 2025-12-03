@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
+  "license": "MIT",  <--- Add this line
   "dependencies": {
     "express": "^4.18.2"
   },
