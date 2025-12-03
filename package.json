@@ -1,13 +1,23 @@
 {
   "name": "sensor-server",
   "version": "1.0.0",
+  "description": "Server to receive data from a 4G module sensor.",
   "main": "server.js",
   "type": "module",
-  "dependencies": {
-    "express": "^4.18.2"
-  },
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "node --watch server.js" 
+  },
+  "keywords": [
+    "express",
+    "sensor",
+    "4g",
+    "render"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
   }
 }
-
